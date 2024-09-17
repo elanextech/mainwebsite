@@ -11144,6 +11144,27 @@ textarea.form-control-lg {
   .mt-xxl-1 {
     margin-top: 0.25rem !important;
   }
+  .get-it button.app-store{
+	width: 152px;
+	height: 52px;
+	background: url(../img/badge-appstore.png) #373737 no-repeat 0px 5px;
+	color: white;
+}
+
+  .purchase button.app-store{
+	width: 152px;
+	height: 52px;
+	background: url(../img/badge-appstore.png) #3a3a3a no-repeat 0px 5px;
+	color: white;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+    .purchasebutton.app-store, .get-it button.app-store{
+        background: url(../img/badge-appstore@2x.png) #3a3a3a no-repeat 0px 5px;
+        background-size: 98%;
+    	color: white;
+    }
+}
   .mt-xxl-2 {
     margin-top: 0.5rem !important;
   }
@@ -11681,6 +11702,7 @@ html {
     width: 3vw;
     left: -4vw;
   }
+
 }
 @media (min-width: 992px) {
   .profile {
